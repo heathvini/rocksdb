@@ -34,3 +34,6 @@ Tango is using RocksDB as a graph storage to store all users' connection data an
 ## Turn
 Turn is using RocksDB as a storage layer for their key/value store, serving at peak 2.4MM QPS out of different datacenters.
 Check out our RocksDB Protobuf merge operator at: https://github.com/vladb38/rocksdb_protobuf
+
+## Yelp
+Yelp is using RocksDB as a forward index in their autocomplete service for ranking metadata about business names and queries.
